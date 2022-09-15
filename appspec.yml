@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /index.html
-    destination: /var/www/html/
+  - source: /README.md
+    destination: /webapp/target/webapp.war
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
