@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /README.md
+  - source: webapp/target.zip
     destination: /webapp/target/webapp.war
 hooks:
   BeforeInstall:
